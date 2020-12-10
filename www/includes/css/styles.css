@@ -1,0 +1,109 @@
+/*Nav*/
+nav.menu-nav ul li.button{
+	list-style-type: none;
+	display: inline-block;
+}
+nav.menu-nav {
+	/*background-color: black;*/
+	/*display: inline-table;*/
+	font-style: oblique;
+	/*padding-top: 1px; */
+	font-size: 25px;
+}
+
+nav.menu-nav ul li.button a.nav{
+
+	color: red;
+	background-color: black;
+	padding: 13px; 
+}
+nav.menu-nav ul li.button a.navhistoire{
+
+	color: red;
+	background-color: black;
+	padding: 13px; 
+}
+nav.menu-nav ul li.button a.nav:hover {
+	background-color: black; 
+	color: white;
+	
+	transition: 0.2 all;
+}
+nav.menu-nav ul li.button a.navhistoire:hover {
+	background-color: black; 
+	color: white;
+	
+	transition: 0.2 all;
+}
+
+
+
+
+body{
+	background: url("img/sword.jpg") 100%;
+}
+
+
+
+div.header{
+
+	background: url("img/spirit.jpg");
+	background-size: 100%;
+	display: inline-block; 
+	margin-left: 33%;
+	margin-right: 24%;
+	/*font-size: 50px;*/
+}
+
+
+h1.title{
+	color: black;
+	font-size: 40px;
+	margin-left: 12%;
+
+}
+p.introduction{
+	color: white;
+	font-style: italic;
+	font-size: 20px;
+	margin-left: 3%;
+}
+mark{
+	background-color: red;
+}
+h3{
+	color: green;
+	background-color: black;
+	margin-right: 70%;
+}
+
+
+
+div.def {
+	background-color: white;
+	color: black;
+}
+div#content div.premierBloc{
+
+}
+div.exemple div{
+	display: inline-block;
+	width: 48%;
+
+}
+div.exempleImg{
+	vertical-align: top;
+}
+
+div#content div.premierBloc div.exemple a.exemple{
+	color: black;
+	background-color: blue;
+}
+
+div#content div.premierBloc div.exemple a.exemple:hover{
+	color: blue;
+	background-color: black;
+	transition: 0.5 all;
+}
+
+
